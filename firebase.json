@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "rewrites": [
+      {
+        "source": "/api/**",
+        "function": "server"
+      },
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "nextjs-docker",
+          "region": "us-west1"
+        }
+      }
+    ]
+  }
+}

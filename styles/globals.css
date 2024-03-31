@@ -1,0 +1,67 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.apexcharts-svg {
+    @apply overflow-visible;
+}
+
+.apexcharts-toolbar {
+    @apply !max-w-none;
+    @apply !p-0;
+    @apply !gap-x-3;
+}
+
+.apexcharts-menu-icon,
+.apexcharts-pan-icon,
+.apexcharts-pan-icon,
+.apexcharts-reset-icon,
+.apexcharts-selection-icon,
+.apexcharts-toolbar-custom-icon,
+.apexcharts-zoom-icon,
+.apexcharts-zoomin-icon,
+.apexcharts-zoomout-icon {
+    @apply !w-auto;
+    @apply !h-auto;
+    @apply !transform-none;
+    @apply !left-0;
+    @apply !m-0;
+    @apply !text-gray-400;
+    @apply !stroke-current;
+    @apply !stroke-2;
+}
+
+.apexcharts-selected svg {
+    @apply !stroke-current;
+    @apply !fill-none;
+}
+
+.apexcharts-pan-icon svg {
+    @apply !fill-none;
+    @apply !stroke-current;
+}
+
+.apexcharts-reset-icon svg {
+    @apply !fill-current;
+    @apply !stroke-current;
+}
+
+.apexcharts-tooltip {
+    @apply !border-none;
+    @apply !bg-transparent;
+    @apply !shadow-none
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+

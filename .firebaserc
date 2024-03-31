@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "lockr-dev-b5f20",
+    "dev": "lockr-dev-b5f20",
+    "prod": "social-unlock-c4273"
+  },
+  "targets": {},
+  "etags": {}
+}
